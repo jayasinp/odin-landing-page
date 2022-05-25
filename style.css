@@ -43,6 +43,8 @@ body{
 
 /* hero section */
 .hero-section{
+    align-items: center;
+    justify-content: center;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url('images/lofi_generator.png');
     background-position: center;
     background-repeat: no-repeat;
