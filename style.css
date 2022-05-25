@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Futura, Arial;
 }
 
 .container{
@@ -118,8 +118,8 @@ body{
 
 .quote blockquote {
     color: white;
-    font-size: large;
-    font-family: serif;
+    font-size: larger;
+    font-family: Palatino, Garamond;
     font-style: italic;
 }
 
@@ -130,10 +130,45 @@ body{
 
 /* call to action */
 
-.action-box{
-    display: inline;
-    color: white;
+.action {
+    margin: auto;
+    border: 40px solid #292929;
+    padding: 10px;
     background-color: #ff5257;
-    max-width: 300px;
-    max-height: 150px;
+    color: white;
+}
+
+.action h1{
+    text-decoration: underline;
+}
+
+.action a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.action a:hover{
+    color: #ff5257;
+}
+
+.action-button{
+    border: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    text-align: center;
+    cursor: crosshair;
+    font-weight: bold;
+}
+/* Footer section */
+.footer {
+    background-color: #292929;
+    border-top: 2px solid#ff5257;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer span{
+    color: white;
 }
