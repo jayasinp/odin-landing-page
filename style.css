@@ -1,5 +1,4 @@
 /* web page itself */
-
 body{
     background-color: #292929;
     padding: 0;
@@ -31,20 +30,108 @@ body{
 
 .header-link a{
     text-decoration: none;
+    font-weight: bold;
     color: white;
     font-size: 18px;
     padding:10px;
+    margin-left: 50px;
+}
+
+.header-link a:hover{
+    color: #ff5257;
 }
 
 /* hero section */
+.hero-section{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.9)), url('images/lofi_generator.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20%;
 
-.hero{
-    column-count: 2;
-    column-gap: 25px;
-    column-rule: 2px solid #202020;
-    background-image: images/lofi_generator.png;
 }
 
-.welcometext{
+.hero-text{
     color: white;
+}
+
+.hero-text p{
+    font-weight: bold;
+}
+
+.hero-text button{
+    border: none;
+    display: inline-block;
+    padding: 10px 25px;
+    color: white;
+    background-color: #292929;
+    text-align: center;
+    cursor: crosshair;
+    font-weight: bold;
+}
+
+.hero-text button:hover{
+    background-color: #ff5257;
+    color: white;
+    font-weight: bold;
+}
+
+/* gallery section */
+
+.gallery{
+    background-color: #292929;
+    color: white;
+}
+.gallery div{
+    display: inline-block;
+    padding: 10px 90px 0px 90px ;
+}
+
+.gallery img{
+
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.gallery a{
+    text-decoration: none;
+    color: white;
+}
+
+.gallery a:hover{
+    color: #ff5257;
+}
+
+/* quote */
+
+.quote{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.3)), url('images/quote.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20%;
+}
+
+.quote blockquote {
+    color: white;
+    font-size: large;
+    font-family: serif;
+    font-style: italic;
+}
+
+.quote h3{
+    color: white;
+    font-size: medium;
+}
+
+/* call to action */
+
+.action-box{
+    display: inline;
+    color: white;
+    background-color: #ff5257;
+    max-width: 300px;
+    max-height: 150px;
 }
