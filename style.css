@@ -1,0 +1,50 @@
+/* web page itself */
+
+body{
+    background-color: #292929;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* nav bar */
+.navbar{
+    display: flex;
+    background-color: #292929;
+    color: white;
+    align-items: center;
+    padding: 20px 0px 20px 100px;
+}
+
+.header-link{
+    display: flex;
+    margin-left: auto;
+    padding: 0px 100px 0px 0px;
+}
+
+.header-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding:10px;
+}
+
+/* hero section */
+
+.hero{
+    column-count: 2;
+    column-gap: 25px;
+    column-rule: 2px solid #202020;
+    background-image: images/lofi_generator.png;
+}
+
+.welcometext{
+    color: white;
+}
